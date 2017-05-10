@@ -2,7 +2,6 @@
   "name": "teamnews",
   "version": "1.0.0",
   "description": "Display Team Player Names via Public API",
-  "main": "app/teamnews.js",
   "scripts": {
     "test": "jasmine tests/tests.js"
   },
@@ -16,6 +15,10 @@
   ],
   "author": "saheed ajibulu",
   "license": "MIT",
+  "prefarGlobal": true,
+  "bin": {
+    "teamnews": "app/teamnews.js"
+  },
   "bugs": {
     "url": "https://github.com/saheedt/HomeSessionDay2/issues"
   },
