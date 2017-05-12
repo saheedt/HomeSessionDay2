@@ -21,8 +21,7 @@ let options = {
 //Callback function, where http statusCode & error is checked and
 //return data is parsed.
 const callback = (error, response, body) => {
-	console.log(error);
-	console.log(response);
+	if (error) console.log(error);
 	if(!error && response.statusCode == 200){
 		let data = JSON.parse(body);
 		console.log(data.players);

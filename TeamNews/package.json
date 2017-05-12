@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/saheedt/HomeSessionDay2#readme",
   "dependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.6.0",
+    "yargs": "^8.0.1"
   }
 }
